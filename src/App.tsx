@@ -8,11 +8,27 @@ const title = <h1>Hello React.js</h1>
 const List = () => {
     let a = 10
     return (
-        <ul>
-            <li>list item {a + 1}</li>
-            <li>list item 2</li>
-            <li>list item 3</li>
-        </ul>
+        <React.Fragment>
+            <ul>
+                <li>list item {a + 1}</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam soluta repellat aspernatur blanditiis sint
+                exercitationem ad. Eligendi hic impedit adipisci odit et
+                accusantium. Fuga minus, illum doloribus perspiciatis sint
+                asperiores?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam soluta repellat aspernatur blanditiis sint
+                exercitationem ad. Eligendi hic impedit adipisci odit et
+                accusantium. Fuga minus, illum doloribus perspiciatis sint
+                asperiores?
+            </p>
+        </React.Fragment>
     )
 }
 
