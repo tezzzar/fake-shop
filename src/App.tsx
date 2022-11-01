@@ -36,22 +36,25 @@ const List = () => {
 
 type TitleProps = {
     title: string
-    text?: string
+    text: string
+    num: number
 }
 
 const Title = (props: TitleProps) => (
-    <h1>
-        {props.text} {props.title}
-    </h1>
+    <>
+        <h1>
+            {props.text} {props.title}
+        </h1>
+        <p>{props.num}</p>
+    </>
 )
 
 function App() {
     return (
         <div className="App">
-            <Title title="app.js" />
-            <Title title="Test.js" />
+            <Title title="app.js" text="Hi" num={15} />
+            <Title title="Test.js" text="Hello" num={25} />
             <List />
-            {10 + 5}
         </div>
     )
 }
