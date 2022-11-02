@@ -1,6 +1,6 @@
 import React from 'react'
 import CssBaseline from '@mui/material/CssBaseline'
-import Main from '../Main/Main'
+import Main from 'container/Main/Main'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 
