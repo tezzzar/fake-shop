@@ -1,6 +1,16 @@
 import { Button, Card, CardActions, CardContent } from '@mui/material'
 import './ProductListItem.scss'
 
+const user = {
+    name: 'Jack',
+    age: 20,
+    sex: 'male',
+}
+
+const { name, age, sex } = user
+
+console.log(name, age, sex)
+
 type Props = {
     name: string
     description: string
