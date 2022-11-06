@@ -36,7 +36,6 @@ const ProductListItem = ({
                     {type}
                 </div>
                 <div className="product-features">
-                    {' '}
                     <span>Capacity:</span> {capacity} Gb
                 </div>
                 <div className="product-price">Price: {price} $</div>
